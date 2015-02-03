@@ -1,0 +1,11 @@
+
+
+Models:
+  Workout
+    ☐ has_many speeds 
+      ☐ speeds
+        ☐ belongs_to :workout
+        ☐ timestamp
+        ☐ speed
+
+    ☐ cadences = { timestamp => cadence }
